@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.donate-bar {
+  @apply text-gray-300 rounded-xl p-3;
+  background: #00071c;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#root {
+  background: "#00071c";
+}
